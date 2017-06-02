@@ -6,4 +6,26 @@
     android:layout_height="match_parent"
     tools:context="com.example.risca.trajectoryreconstruction.HalamanAwal">
 
+    <Spinner
+        android:id="@+id/base"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="128dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="128dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="-1dp" />
 </android.support.constraint.ConstraintLayout>
